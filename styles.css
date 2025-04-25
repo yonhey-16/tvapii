@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+    margin: 20px 0;
+}
+
+.description {
+    background: #1d3557;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.link {
+    display: block;
+    margin: 10px 0;
+    color: #a8dadc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.version {
+    font-size: 0.9rem;
+    color: #f1faee;
+    margin-top: 10px;
+}
